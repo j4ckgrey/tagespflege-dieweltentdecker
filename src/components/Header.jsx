@@ -44,7 +44,7 @@ const Header = () => {
         />
       </Link>
       <div
-        className="fixed top-6 right-0.5 z-50 sm:left-32"
+        className="fixed top-6 right-0.5 z-50 sm:right-32"
         onMouseEnter={() => {
           if (!isTouch) {
             clearTimeout(closeTimeoutRef.current);
@@ -86,7 +86,7 @@ const Header = () => {
         </button>
         <nav
           ref={menuRef}
-          className={`fixed top-6 right-0.5 z-50 flex flex-col space-y-4 bg-accent p-6 rounded-lg shadow-lg sm:left-32 transition-transform duration-300 ${
+          className={`fixed top-6 right-0.5 z-50 flex flex-col space-y-4 bg-accent p-6 rounded-lg shadow-lg sm:right-32 transition-transform duration-300 ${
             menuOpen
               ? 'translate-x-0 opacity-100'
               : 'translate-x-10 opacity-0 pointer-events-none'
@@ -112,6 +112,13 @@ const Header = () => {
             className="text-rose-700 font-semibold hover:underline"
           >
             Kontakt
+          </Link>
+          <Link
+            to="/photos"
+            onClick={() => setMenuOpen(false)}
+            className="text-rose-700 font-semibold hover:underline"
+          >
+            Fotos
           </Link>
         </nav>
       </div>

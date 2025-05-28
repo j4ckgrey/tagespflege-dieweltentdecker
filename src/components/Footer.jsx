@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaInstagram } from 'react-icons/fa';
 
 const Footer = () => (
-  <footer className="bg-amber-200 shadow-inner z-50">
+  <footer className="bg-amber-200 shadow-inner z-40 mt-5">
     <div className="container mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between text-neutral-900">
       <div className="mb-4 md:mb-0 space-x-6 text-base font-semibold leading-relaxed">
         <Link to="/impressum" className="hover:underline">
