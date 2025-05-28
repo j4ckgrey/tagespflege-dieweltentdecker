@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply text-neutral font-sans text-base leading-relaxed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f3f4f6;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@layer utilities {
+  .bg-hands {
+    background-image: url('../assets/Hands.png');
+    background-repeat: repeat;
+    background-size: 200px auto;
+    background-position: center;
+    background-blend-mode: lighten;
+    opacity: 0.05;
+  }
+}
+
+h1 {
+  @apply text-5xl leading-tight font-extrabold text-primary mb-6 tracking-tight;
+}
+
+h2 {
+  @apply text-4xl leading-snug font-bold text-primary mb-5;
+}
+
+h3 {
+  @apply text-2xl leading-snug font-semibold text-primary mb-4;
+}
+
+h4 {
+  @apply text-xl leading-normal font-medium text-secondary mb-3;
+}
+
+p {
+  @apply text-base text-gray-800 mb-5 leading-relaxed;
+}
+
+input,
+textarea {
+  @apply border border-pink-300 rounded px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-pink-500;
+}
+
+button {
+  @apply bg-pink-600 text-white px-6 py-2 rounded hover:bg-pink-700 transition;
+}
+
+a {
+  @apply text-rose-600 hover:underline font-medium;
+}
+
+.page-container {
+  @apply max-w-4xl mx-auto px-6 py-12 shadow-md bg-accent z-50 relative mt-8;
+}
