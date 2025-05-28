@@ -70,7 +70,7 @@ const Photos = () => {
               e.stopPropagation();
               setSelectedIndex(null);
             }}
-            className="absolute top-10 right-32 text-gray-300 text-3xl font-bold z-60 hover:text-white transition bg-transparent border-none focus:outline-none"
+            className="absolute top-10 right-10 text-gray-300 text-3xl font-bold z-60 hover:text-white transition bg-transparent border-none focus:outline-none"
           >
             &times;
           </button>
