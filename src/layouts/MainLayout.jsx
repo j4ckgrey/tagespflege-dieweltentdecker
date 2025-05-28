@@ -7,7 +7,7 @@ const MainLayout = ({ children }) => (
   <div className="relative flex flex-col min-h-screen">
     <div className="absolute inset-0 bg-hands -z-0"></div>
     <Header />
-    <main className="flex-grow w-full">
+    <main className="flex-grow w-full flex justify-center">
       <div className="page-container">
         <img src={Image} alt="logo" className="w-96 h-auto mx-auto mb-6" />
         {children}
