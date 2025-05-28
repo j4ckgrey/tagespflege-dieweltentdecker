@@ -37,14 +37,14 @@ const Header = () => {
         <img
           src={Image}
           alt="Logo"
-          className="h-24 w-auto fixed top-6 left-32 z-50 object-contain cursor-pointer"
+          className="h-24 w-auto fixed left-0.5 top-6 z-50 object-contain cursor-pointer sm:left-32"
           style={{
             filter: 'drop-shadow(0 0 1.5px rgba(0,0,0,0.6))',
           }}
         />
       </Link>
       <div
-        className="fixed top-6 right-32 z-50"
+        className="fixed top-6 right-0.5 z-50 sm:left-32"
         onMouseEnter={() => {
           if (!isTouch) {
             clearTimeout(closeTimeoutRef.current);
@@ -86,7 +86,7 @@ const Header = () => {
         </button>
         <nav
           ref={menuRef}
-          className={`fixed top-6 right-32 z-50 flex flex-col space-y-4 bg-accent p-6 rounded-lg shadow-lg transition-transform duration-300 ${
+          className={`fixed top-6 right-0.5 z-50 flex flex-col space-y-4 bg-accent p-6 rounded-lg shadow-lg sm:left-32 transition-transform duration-300 ${
             menuOpen
               ? 'translate-x-0 opacity-100'
               : 'translate-x-10 opacity-0 pointer-events-none'
