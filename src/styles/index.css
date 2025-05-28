@@ -26,19 +26,19 @@ body {
 }
 
 h1 {
-  @apply text-5xl leading-tight font-extrabold text-primary mb-6 tracking-tight;
+  @apply text-4xl leading-tight font-extrabold text-primary mb-6 tracking-tight sm:text-5xl;
 }
 
 h2 {
-  @apply text-4xl leading-snug font-bold text-primary mb-5;
+  @apply text-3xl leading-snug font-bold text-primary mb-5 sm:text-4xl;
 }
 
 h3 {
-  @apply text-2xl leading-snug font-semibold text-primary mb-4;
+  @apply text-xl leading-snug font-semibold text-primary mb-4 sm:text-2xl;
 }
 
 h4 {
-  @apply text-xl leading-normal font-medium text-secondary mb-3;
+  @apply text-lg leading-normal font-medium text-secondary mb-3 sm:text-xl;
 }
 
 p {
