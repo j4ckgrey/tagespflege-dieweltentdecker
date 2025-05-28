@@ -70,7 +70,7 @@ const Photos = () => {
               e.stopPropagation();
               setSelectedIndex(null);
             }}
-            className="absolute top-4 right-4 text-gray-300 text-3xl font-bold z-60 hover:text-white transition bg-transparent border-none focus:outline-none"
+            className="absolute top-10 right-32 text-gray-300 text-3xl font-bold z-60 hover:text-white transition bg-transparent border-none focus:outline-none"
           >
             &times;
           </button>
@@ -81,7 +81,7 @@ const Photos = () => {
                 (prev) => (prev - 1 + images.length) % images.length
               );
             }}
-            className="absolute left-4 text-gray-300 text-4xl font-bold z-60 hover:text-white transition bg-transparent border-none focus:outline-none"
+            className="absolute left-10 text-gray-300 text-4xl font-bold z-60 hover:text-white transition bg-transparent border-none focus:outline-none"
           >
             &#8592;
           </button>
@@ -96,7 +96,7 @@ const Photos = () => {
               e.stopPropagation();
               setSelectedIndex((prev) => (prev + 1) % images.length);
             }}
-            className="absolute right-4 text-gray-300 text-4xl font-bold z-60 hover:text-white transition bg-transparent border-none focus:outline-none"
+            className="absolute right-10 text-gray-300 text-4xl font-bold z-60 hover:text-white transition bg-transparent border-none focus:outline-none"
           >
             &#8594;
           </button>
