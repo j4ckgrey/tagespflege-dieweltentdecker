@@ -7,13 +7,19 @@ const Footer = () => (
   <footer className="bg-amber-200 shadow-inner z-40 mt-5">
     <div className="container mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between text-neutral-900">
       <div className="mb-4 md:mb-0 space-x-6 text-base font-semibold leading-relaxed">
-        <Link to="/impressum" className="hover:underline">
+        <Link
+          to="/impressum"
+          className="hover:underline text-rose-700 font-semibold"
+        >
           Impressum
         </Link>
-        <Link to="/datenschutz" className="hover:underline">
+        <Link
+          to="/datenschutz"
+          className="hover:underline text-rose-700 font-semibold"
+        >
           Datenschutz
         </Link>
-        <Link to="/AGB" className="hover:underline">
+        <Link to="/AGB" className="hover:underline text-rose-700 font-semibold">
           AGB
         </Link>
       </div>
