@@ -17,7 +17,7 @@ const AppRoutes = () => (
     <div className="relative flex flex-col min-h-screen">
       <div className="absolute inset-0 bg-hands -z-0"></div>
       <Header />
-      <main className="flex items-center justify-center w-full min-h-screen">
+      <main className="flex items-center justify-center min-h-screen">
         <div className="page-container">
           <img src={Image} alt="logo" className="w-96 h-auto mx-auto mb-6" />
           <Routes>
