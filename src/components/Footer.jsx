@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaInstagram } from 'react-icons/fa';
+import ResetConsentButton from './ResetConsentButton';
 
 const Footer = () => (
   <footer className="bg-amber-200 shadow-inner z-40 mt-5">
@@ -11,6 +12,9 @@ const Footer = () => (
         </Link>
         <Link to="/datenschutz" className="hover:underline">
           Datenschutz
+        </Link>
+        <Link to="/AGB" className="hover:underline">
+          AGB
         </Link>
       </div>
       <div className="flex items-center space-x-4">
@@ -26,6 +30,7 @@ const Footer = () => (
         <span className="text-sm text-neutral-700">
           &copy; {new Date().getFullYear()} Die Weltentdecker
         </span>
+        <ResetConsentButton />
       </div>
     </div>
   </footer>
