@@ -68,7 +68,7 @@ const Home = () => (
         Mahlzeiten, die kindgerecht, lecker und abwechslungsreich sind. Dabei
         beziehen wir regionale Zutaten und achten auf eine gesunde Balance.
       </p>
-      <div className="flex flex-row gap-4">
+      <div className="flex  grid-cols-3 gap-4">
         <div className="aspect-square overflow-hidden rounded-lg shadow-md">
           <img
             src={Image3}
