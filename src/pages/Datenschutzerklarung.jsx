@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Datenschutz = () => (
-  <div>
+  <>
     <h2>Datenschutzerklärung</h2>
 
     <h3>1. Allgemeine Hinweise</h3>
@@ -46,7 +46,7 @@ const Datenschutz = () => (
       Bitte wenden Sie sich an: Kimberley Engelhardt, siehe Kontakt im
       Impressum.
     </p>
-  </div>
+  </>
 );
 
 export default Datenschutz;

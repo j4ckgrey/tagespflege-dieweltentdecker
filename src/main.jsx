@@ -4,11 +4,14 @@ import { CookiesProvider } from 'react-cookie';
 // import './index.css'
 import AppRoutes from './routes/AppRoutes';
 import './styles/index.css';
+import { FeedbackProvider } from './components/FeedbackContext';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <CookiesProvider>
-      <AppRoutes />
+      <FeedbackProvider>
+        <AppRoutes />
+      </FeedbackProvider>
     </CookiesProvider>
   </StrictMode>
 );

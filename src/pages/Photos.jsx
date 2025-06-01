@@ -35,7 +35,7 @@ const Photos = () => {
   }, [selectedIndex]);
 
   return (
-    <div>
+    <>
       <h2 className="text-3xl font-bold text-primary mb-6 text-center">
         Unsere schönen Momente
       </h2>
@@ -102,7 +102,7 @@ const Photos = () => {
           </button>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

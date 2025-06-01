@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Impressum = () => (
-  <div>
+  <>
     <h2>Impressum</h2>
 
     <section>
@@ -58,7 +58,7 @@ const Impressum = () => (
         />
       </div>
     </section>
-  </div>
+  </>
 );
 
 export default Impressum;

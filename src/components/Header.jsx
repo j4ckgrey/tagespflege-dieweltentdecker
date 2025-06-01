@@ -89,7 +89,7 @@ const Header = () => {
               onClick={() => setMenuOpen(false)}
               className="w-full text-center bg-rose-100 text-rose-700 font-semibold px-4 py-2 rounded-lg shadow"
             >
-              Über uns
+              Über mich
             </Link>
             <Link
               to="/contact"
@@ -112,7 +112,7 @@ const Header = () => {
   );
 
   const desktopHeader = (
-    <header className="w-full fixed top-0 left-0 z-50 flex justify-between items-center px-32 py-1 bg-amber-200 shadow-md">
+    <header className="w-full top-0 left-0 z-40 flex justify-between items-center px-32 py-1 bg-amber-200 shadow-md">
       <Link to="/">
         <img src={Image} alt="Logo" className="h-20 w-auto object-contain" />
       </Link>
@@ -124,7 +124,7 @@ const Header = () => {
           to="/about"
           className="text-rose-700 font-semibold hover:underline"
         >
-          Über uns
+          Über mich
         </Link>
         <Link
           to="/contact"

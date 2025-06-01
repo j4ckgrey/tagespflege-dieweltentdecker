@@ -12,7 +12,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <>
       <h2 className="text-3xl font-extrabold text-primary mb-6 text-center">
         Kontaktieren Sie uns
       </h2>
@@ -75,7 +75,7 @@ const Contact = () => {
           Absenden
         </button>
       </form>
-    </div>
+    </>
   );
 };
 

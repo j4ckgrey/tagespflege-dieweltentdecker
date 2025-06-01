@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AgbPage = () => (
-  <div>
+  <>
     <h3>Allgemeine Geschäftsbedingungen (AGB)</h3>
 
     <section>
@@ -102,7 +102,7 @@ const AgbPage = () => (
         </p>
       </div>
     </section>
-  </div>
+  </>
 );
 
 export default AgbPage;
