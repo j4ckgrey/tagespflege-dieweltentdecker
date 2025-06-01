@@ -37,7 +37,7 @@ const GallerySection = () => {
   return (
     <section className="bg-sky-100 py-3 px-6 text-center flex flex-col justify-center">
       <h2 className="text-2xl font-bold mb-6">Einblick in unseren Alltag</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+      <div className="grid grid-cols-3 gap-4 mb-6">
         {images.map((img, index) => (
           <div
             key={index}
