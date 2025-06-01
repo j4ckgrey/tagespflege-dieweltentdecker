@@ -2,7 +2,7 @@ import React from 'react';
 import Image from '../assets/photos/05.jpeg';
 
 const TimeTableSection = () => (
-  <section className="flex flex-col md:flex-row items-center bg-gray-100 gap-8 py-3 px-6 my-5 h-[450px] ">
+  <section className="flex flex-col md:flex-row items-center bg-gray-100 gap-8 py-3 px-6 my-5">
     <div className="w-full md:w-1/3 h-auto md:h-[400px]">
       <img
         src={Image}

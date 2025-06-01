@@ -2,7 +2,7 @@ import React from 'react';
 import Image from '../assets/photos/12.jpeg';
 
 const DaycarerSection = () => (
-  <section className="flex flex-col md:flex-row items-center gap-8 bg-rose-100 py-3 px-6 my-5 h-[450px]">
+  <section className="flex flex-col md:flex-row items-center gap-8 bg-rose-100 py-3 px-6 my-5">
     <div className="w-full md:w-2/3">
       <h2 className="text-2xl font-bold mb-4">Unsere Tagesmutter</h2>
       <p className="mb-3">
