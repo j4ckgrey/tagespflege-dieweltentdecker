@@ -15,7 +15,7 @@ const DaycarerSection = () => (
         wird jeder Tag zu etwas Besonderem.
       </p>
     </div>
-    <div className="w-full md:w-1/3 h-auto md:h-[400px]">
+    <div className="w-full aspect-square md:aspect-auto md:w-1/3 md:h-[400px] object-cover">
       <img
         src={Image}
         alt="Tagesmutter"

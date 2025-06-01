@@ -3,7 +3,7 @@ import Image from '../assets/photos/05.jpeg';
 
 const TimeTableSection = () => (
   <section className="flex flex-col md:flex-row items-center bg-gray-100 gap-8 py-3 px-6 my-5">
-    <div className="w-full md:w-1/3 h-auto md:h-[400px]">
+    <div className="w-full aspect-square md:aspect-auto md:w-1/3 md:h-[400px] object-cover">
       <img
         src={Image}
         alt="Tagesablauf"
